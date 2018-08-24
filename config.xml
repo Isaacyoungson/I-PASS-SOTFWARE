@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id = "com.phonegap.i-pass-app"
+	version = "1.1.0">
+
+<name>I PASS APP</name>
+
+<description>this is the best app for learning. get all your course questions in one app.</description>
+
+<author href="http://young-tech1.wordpress.com" email="youngsonf2@gmail.com"> YOUNG TECH </author>
+
+<preference name="phonegap-version" value="3.0.0"/>
+
+<gap:plugin name="org.apache.cordova.core.splashscreen"/>
+
+<icon src="images/img6.jpg"/>
+
+<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi"/>
+
+<icon src="res/icon/android/icon-36-mdpi.png" gap:platform="android" gap:density="mdpi"/>
+
+<icon src="res/icon/android/icon-36-hdpi.png" gap:platform="android" gap:density="hdpi"/>
+
+<icon src="res/icon/android/icon-36-xdpi.png" gap:platform="android" gap:density="xdpi"/>
+
+</widget>
+

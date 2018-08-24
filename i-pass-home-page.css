@@ -1,0 +1,72 @@
+		body{background-image:url(images/img6.jpg);
+    		 background-repeat: repeat;
+   			  background-size: 100% 60%;}
+
+		#main{display: flex;
+			justify-content: center;
+			padding:8px;
+			height:10px;
+			display:inline;
+		}
+
+		section{width: 100%}
+
+		input{
+			border-radius: 5px;
+			float:right;
+			width: 150px;
+			height:15px;
+			padding: 2px;
+			color: blue
+			 }
+
+		#main :nth-child(5){
+			float:right;
+			border-style: none
+		}
+
+		img {
+			width: 99%;
+			height: 500px;
+			position: absolute;
+		}
+
+		div{
+			opacity: 0.8;
+			height: auto;
+			width: 100%
+		}
+
+		h4{
+			display: inline;
+			color: navy;
+			padding: 3.5%;
+		}
+
+		a{text-decoration: none; color: white}
+
+		h4:hover{color: red}
+	
+
+	button:hover{
+		background-color: red
+	}
+
+	h3{color: navy}
+
+	footer{width: 100%;
+		  height: 50px;
+		 background-color: black;
+		 clear:both;
+		 opacity: 0.7;
+		 color: white;
+		 text-align: center;}
+ 
+	@media(max-width: 800px){
+
+		div{font-size: 0.65em; transition: 3s}
+
+		input{width: 100px}
+
+		section{margin-left: auto;}
+	}
