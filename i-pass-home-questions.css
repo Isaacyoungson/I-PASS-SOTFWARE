@@ -1,9 +1,10 @@
-		body{background-image:url(images/img7.jpg);
+		body{background-image:url(images/img6.jpg);
 			 background-repeat: repeat;}
 
 		#main{display: flex;
 			justify-content: center;
-			align-items: center;}
+			align-items: center;
+			}
 
 		img {
 			width: 99%;
@@ -53,7 +54,7 @@
 
 		article{
 			background-color: black;
-			opacity: 0.7;
+			opacity: 0.6;
 			width: 78%;
 			padding: 1%
 		}
@@ -66,5 +67,12 @@
 
 		@media(max-width: 800px){
 			#SubjectList{width: 100%;}
+
 			article{width: 100%}
-		}
+
+			#button{display: inline;}
+
+			h4{
+			padding: 3%;
+			font-size: 0.80em
+			}

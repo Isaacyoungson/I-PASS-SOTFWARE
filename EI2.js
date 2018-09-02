@@ -103,7 +103,7 @@ function myResult() {
 
 document.getElementById('showResults').style.visibility = "visible";
 
-document.getElementById('showResults').innerHTML = "you got " + correct + " out of 20 correct  <br/> Q1:A <br> Q2:B <br/> Q3:A <br> Q4:C <br> Q5:C <br/> Q6:A <br/> Q7:A <br/> Q8:C <br/> Q9:C <br/> Q10:A <br/> Q11:D <br/> Q12:D <br/> Q13:B <br/> Q14:B <br/> Q15:A <br/> Q16:B <br/> Q17:B <br/> Q18:A <br/> Q19:A <br/> Q20:D"
+document.getElementById('showResults').innerHTML = "you got " + correct + " out of 50 correct. Refresh and try again  <br/> Q1:A <br> Q2:B <br/> Q3:A <br> Q4:C <br> Q5:C <br/> Q6:A <br/> Q7:A <br/> Q8:C <br/> Q9:C <br/> Q10:A <br/> Q11:D <br/> Q12:D <br/> Q13:B <br/> Q14:B <br/> Q15:A <br/> Q16:B <br/> Q17:B <br/> Q18:A <br/> Q19:A <br/> Q20:D"
 
 alert("you got " + correct + " out of 20 correct. Try more questions")
 };
